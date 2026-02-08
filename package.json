@@ -1,13 +1,14 @@
 {
   "name": "word-puzzles",
   "version": "1.0.0",
-  "description": "Anagram solver and word ladder game",
-  "main": "index.js",
+  "description": "CLI word puzzle collection: anagrams, word ladders, crosswords, and word searches",
   "type": "module",
   "scripts": {
     "anagram": "node anagram.js",
-    "ladder": "node ladder.js"
+    "ladder": "node ladder.js",
+    "crossword": "node crossword.js",
+    "wordsearch": "node wordsearch.js"
   },
-  "keywords": ["word-games", "puzzles", "cli"],
+  "keywords": ["word-games", "puzzles", "cli", "crossword", "word-search"],
   "license": "MIT"
 }
