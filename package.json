@@ -1,0 +1,13 @@
+{
+  "name": "word-puzzles",
+  "version": "1.0.0",
+  "description": "Anagram solver and word ladder game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "anagram": "node anagram.js",
+    "ladder": "node ladder.js"
+  },
+  "keywords": ["word-games", "puzzles", "cli"],
+  "license": "MIT"
+}
